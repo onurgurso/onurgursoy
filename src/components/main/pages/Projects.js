@@ -13,8 +13,6 @@ import bbild from "../img/2.jpg";
 import cbild from "../img/3.jpg";
 import dbild from "../img/4.jpg";
 
-
-
 const StyledParent = styled.div`
   position: absolute;
   top: 0;
@@ -39,10 +37,9 @@ const StyledParent = styled.div`
     h1, p{
     margin: 1rem 0 3rem 0;
     text-align: center;
-  }
+    }
   }
 `;
-
 
 
 const useStyles = makeStyles((theme) => ({
@@ -72,7 +69,6 @@ const theme = createMuiTheme({
   }
 });
 
-
 const pics = [abild, bbild, cbild, dbild]
 
 const Projects = () => {
@@ -91,7 +87,7 @@ const Projects = () => {
     <ThemeProvider theme={theme}>
       <StyledParent>
         <h1>Projects</h1>
-        <p>Here are some of the projects that I've done. </p>
+        <p>Here are some of the projects that I've built. </p>
 
         <Grid container className={classes.root} direction="row" justify="center" spacing={4} elevation={0}>
 

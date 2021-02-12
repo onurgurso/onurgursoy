@@ -17,6 +17,7 @@ import { NavLink } from "react-router-dom";
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
   root: {
+    flexGrow:1,
     display: "inline",
   },
   drawer: {

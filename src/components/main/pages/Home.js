@@ -25,7 +25,7 @@ const StyledDiv = styled.div`
 
   @media (max-width: 850px) {
     transform: translate(-60%, -50%);
-    /* height: 300px; */
+
     h1 {
       font-size: 50px;
       padding-top: 2rem;

@@ -71,8 +71,6 @@ const StyledParent = styled.div`
   @media (max-width: 850px) {
     padding: 50px 0;
 
-    /* padding: 0 0; */
-
     & > div {
       display: flex;
       flex-direction: column-reverse;

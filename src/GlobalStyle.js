@@ -1,19 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 import spacebg from "./components/main/img/space8bit.jpg";
 
-// bleue = #2efddf
-// pinky = #FF217C
-
-// font-family: 'Press Start 2P', cursive;
-// font-family: 'Quicksand', sans-serif;
 
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
   }
+  
   body{
     background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.3)), url(${spacebg}) no-repeat center center fixed;
     background-size: cover; 
