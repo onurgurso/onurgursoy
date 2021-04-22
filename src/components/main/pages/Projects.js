@@ -52,10 +52,25 @@ const useStyles = makeStyles((theme) => ({
         padding: "20px 0",
       },
     },
+    [theme.breakpoints.up('xl')]: {
+      padding: "0 20%",
+      margin: 0,
+      '& > .MuiGrid-item': {
+        maxWidth: "700px",
+        padding: "20px 20px",
+      },
+    },
   },
 
   media: {
     height: 400,
+    [theme.breakpoints.up('lg')]: {
+      margin: 0,
+      '& > .MuiGrid-item': {
+        // height: 400,
+
+      },
+    },
   },
 }));
 
@@ -95,7 +110,7 @@ const Projects = () => {
             repos.size > 1000
           )).map(
             (repo, index) => (
-              <Grid item key={repo.id} xs={11} sm={8} md={8} lg={5}>
+              <Grid item key={repo.id} xs={11} sm={10} md={10} lg={6}>
                 <Card>
 
                   <CardActionArea disableRipple>
