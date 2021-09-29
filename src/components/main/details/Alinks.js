@@ -30,7 +30,7 @@ const StyledAlink = styled.div`
     transform-origin: top;
     transform: skewX(-41deg);
   }
-  
+
   ul li:after {
     content: "";
     position: absolute;
@@ -142,24 +142,13 @@ const Alinks = () => {
           </a>
         </li>
         <li>
-          <a href="https://se.linkedin.com/">
+          <a href="www.linkedin.com/in/ogursoy">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             <span className="FaLinkedin">
               <FaLinkedin />
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span className="FaTwitter">
-              <FaTwitter />
             </span>
           </a>
         </li>

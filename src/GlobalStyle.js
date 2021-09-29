@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import spacebg from "./components/main/img/space8bit.jpg";
 
-
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -74,7 +73,6 @@ const GlobalStyle = createGlobalStyle`
       font-size: 14px;
     }
   }
-  
 `;
 
 export default GlobalStyle;
