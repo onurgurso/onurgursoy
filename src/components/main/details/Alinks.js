@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+import { GrMail } from "react-icons/gr";
 
 const StyledAlink = styled.div`
   height: 60px;
@@ -128,7 +128,7 @@ const Alinks = () => {
             <span></span>
             <span></span>
             <span className="SiGmail">
-              <SiGmail />
+              <GrMail />
             </span>
           </a>
         </li>
