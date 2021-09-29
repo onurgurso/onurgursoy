@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/onurgursoy/static/js/main.44db9cd3.chunk.js",
+    "main.js.map": "/onurgursoy/static/js/main.44db9cd3.chunk.js.map",
+    "runtime-main.js": "/onurgursoy/static/js/runtime-main.26a0255b.js",
+    "runtime-main.js.map": "/onurgursoy/static/js/runtime-main.26a0255b.js.map",
+    "static/js/2.baa9cd58.chunk.js": "/onurgursoy/static/js/2.baa9cd58.chunk.js",
+    "static/js/2.baa9cd58.chunk.js.map": "/onurgursoy/static/js/2.baa9cd58.chunk.js.map",
+    "index.html": "/onurgursoy/index.html",
+    "static/js/2.baa9cd58.chunk.js.LICENSE.txt": "/onurgursoy/static/js/2.baa9cd58.chunk.js.LICENSE.txt",
+    "static/media/birdeyeview.d3ec401e.jpg": "/onurgursoy/static/media/birdeyeview.d3ec401e.jpg",
+    "static/media/cargo.3b477147.png": "/onurgursoy/static/media/cargo.3b477147.png",
+    "static/media/gursoinc.16fc35f1.jpg": "/onurgursoy/static/media/gursoinc.16fc35f1.jpg",
+    "static/media/quire.a1669a5c.jpg": "/onurgursoy/static/media/quire.a1669a5c.jpg",
+    "static/media/soupie.cf61f690.png": "/onurgursoy/static/media/soupie.cf61f690.png",
+    "static/media/space8bit.9b25f90f.jpg": "/onurgursoy/static/media/space8bit.9b25f90f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26a0255b.js",
+    "static/js/2.baa9cd58.chunk.js",
+    "static/js/main.44db9cd3.chunk.js"
+  ]
+}
