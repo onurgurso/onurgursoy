@@ -144,7 +144,7 @@ const Alinks = () => {
           </a>
         </li>
         <li>
-          <a href="www.linkedin.com/in/ogursoy">
+          <a href="https://www.linkedin.com/in/ogursoy/">
             <span></span>
             <span></span>
             <span></span>

@@ -133,7 +133,7 @@ const theme = createMuiTheme({
     button: {
       fontFamily: "'Press Start 2P', cursive",
       fontSize: 12,
-      margin: "5px 15px",
+      margin: "15px 20px",
       background: "#2efddf",
     },
     text: {
