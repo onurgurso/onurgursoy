@@ -48,8 +48,6 @@ const StyledDiv = styled.div`
   @media (max-height: 700px) {
     transform: translate(-50%, -30%);
   }
-  
-
 `;
 
 const Home = () => {

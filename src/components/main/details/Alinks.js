@@ -3,8 +3,9 @@ import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 const StyledAlink = styled.div`
-  height: 100px;
-  width: 500px;
+  height: 60px;
+  width: 300px;
+  margin-bottom: 60px;
 
   ul {
     position: relative;
@@ -15,8 +16,8 @@ const StyledAlink = styled.div`
   ul li {
     position: relative;
     list-style: none;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     margin: 0px 10px;
   }
   ul li:before {
@@ -98,6 +99,7 @@ const StyledAlink = styled.div`
   @media (max-width: 850px) {
     height: 100px;
     width: 300px;
+    margin-bottom: 30px;
 
     ul li {
       width: 60px;
