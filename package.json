@@ -1,6 +1,5 @@
 {
   "name": "ip2",
-  "homepage": "https://ogurso.github.io/onurgursoy/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,15 +15,15 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "styled-components": "^5.2.1",
+    "surge": "^0.23.0",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && cd build && cp index.html 200.html && surge ./"
   },
   "eslintConfig": {
     "extends": [
